@@ -18,5 +18,4 @@ pipe = pipe.fit(X_train, y_train)
 with open('/home/data1/lab1/knn.joblib', 'wb') as f:
     joblib.dump(pipe, f)
 
-# pipe_knn = load('/home/data1/lab1/knn.joblib')
 print('model_preparation исполнен')
